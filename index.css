@@ -1,0 +1,125 @@
+ body {
+     margin: 10px;
+ }
+ 
+ #head_er {
+     width: 100%;
+     height: 60px;
+     margin-bottom: 100px;
+     background-color: grey;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+ }
+ 
+ a {
+     margin: 15px;
+     color: white;
+     font-size: 1.2rem;
+     list-style-type: none;
+     text-decoration: none;
+ }
+ 
+ #main1 {
+     margin: 40px 220px;
+     border: 20px solid blue;
+     background-color: green;
+     font-weight: 700;
+     height: 250px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ p {
+     width: auto;
+     font-size: 2.5rem;
+ }
+ 
+ #main2 {
+     display: none;
+ }
+ 
+ @media only screen and (max-width: 1200px) {
+     body {
+         background-color: rgb(192, 204, 123);
+     }
+     #main1 {
+         margin: 40px 120px;
+     }
+     #main2 {
+         display: none;
+     }
+ }
+ 
+ @media only screen and (max-width: 1000px) {
+     body {
+         background-color: rgb(228, 138, 55);
+     }
+     #main1 {
+         margin: 40px 120px;
+         height: 180px;
+     }
+     #head_er {
+         color margin-bottom: 80px;
+         justify-content: space-evenly;
+     }
+     a {
+         color: black;
+     }
+     p {
+         width: auto;
+         font-size: 1.8rem;
+     }
+     #main2 {
+         display: none;
+     }
+ }
+ 
+ @media only screen and (max-width: 800px) {
+     body {
+         background-color: rgb(192, 73, 207);
+     }
+     #head_er {
+         width: 100%;
+         height: 260px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         background-color: unset;
+     }
+     a {
+         margin: 0;
+         width: 100%;
+         height: 100px;
+         color: black;
+         font-size: 1.2rem;
+         list-style-type: none;
+         text-decoration: none;
+         background-color: cyan;
+         border-bottom: 0.01px solid rgb(116, 113, 113, 0.3);
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+     }
+     #main2 {
+         margin: 240px 80px;
+         border: 20px solid orangered;
+         background-color: rgb(192, 73, 207);
+         font-weight: 700;
+         height: 250px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+     #main2 p {
+         width: auto;
+         font-size: 2rem;
+     }
+     #main1 {
+         display: none;
+     }
+ }
